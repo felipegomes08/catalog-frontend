@@ -45,7 +45,7 @@ export const CardProduct = ({
         onOpenChange={(e) => setOpen(e.open)}
         placement={"center"}
       >
-        <Card.Root maxW="220px" overflow="hidden" position={"relative"}>
+        <Card.Root maxW="180px" overflow="hidden" position={"relative"}>
           {out && (
             <Text
               position="absolute"
@@ -86,7 +86,7 @@ export const CardProduct = ({
             </a>
             <DialogTrigger asChild>
               <Button variant="ghost" size={"xs"}>
-                Ver detalhes
+                Ver
               </Button>
             </DialogTrigger>
           </Card.Footer>
