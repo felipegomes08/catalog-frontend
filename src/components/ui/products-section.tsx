@@ -1,11 +1,28 @@
 import { products } from "@/catalog/config/products";
 import { Flex } from "@chakra-ui/react";
+import { useMemo } from "react";
 import { CardProduct } from "./card-product";
 
-export const ProductsSection = () => {
+interface ProductsSectionProps {
+  filter: string;
+}
+export const ProductsSection = ({ filter }: ProductsSectionProps) => {
+  const filterProducts = useMemo(() => {
+    return filter
+      ? products.filter((item) => item.categoria === filter)
+      : products;
+  }, [filter]);
+
   return (
-    <Flex wrap={"wrap"} w={"100%"} justify={"center"} gap={2}>
-      {products.map((item) => (
+    <Flex
+      wrap={"wrap"}
+      w={"100%"}
+      h={"100%"}
+      overflowY={"auto"}
+      justify={"center"}
+      gap={2}
+    >
+      {filterProducts.map((item) => (
         <CardProduct
           key={item.nome}
           name={item.nome}

@@ -1,6 +1,26 @@
+// Definindo o enum para as categorias
+export enum Categoria {
+  Aneis = "Anéis",
+  Brincos = "Brincos",
+  Colares = "Colares",
+  Conjuntos = "Conjuntos",
+  Pulseiras = "Pulseiras",
+}
+
+// Definindo a interface para os produtos
+interface Produto {
+  nome: string;
+  descricao: string;
+  foto: string;
+  preco: number;
+  esgotado: boolean;
+  categoria: Categoria;
+}
+
+// Definindo a estrutura das categorias e produtos
 export const categories = [
   {
-    name: "Anéis",
+    name: Categoria.Aneis,
     foto: "DESTAQUE-ANEL.png",
     produtos: [
       {
@@ -9,6 +29,7 @@ export const categories = [
         foto: "peca1.png",
         preco: 100,
         esgotado: true,
+        categoria: Categoria.Aneis,
       },
       {
         nome: "Anel 2",
@@ -16,92 +37,102 @@ export const categories = [
         foto: "peca2.png",
         preco: 200,
         esgotado: false,
+        categoria: Categoria.Aneis,
       },
     ],
   },
   {
-    name: "Brincos",
+    name: Categoria.Brincos,
     foto: "DESTAQUE-BRINCO.png",
     produtos: [
       {
-        nome: "brincos 1",
+        nome: "Brincos 1",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca1.png",
         preco: 100,
         esgotado: false,
+        categoria: Categoria.Brincos,
       },
       {
-        nome: "brincos 2",
+        nome: "Brincos 2",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca2.png",
         preco: 200,
         esgotado: false,
+        categoria: Categoria.Brincos,
       },
     ],
   },
   {
-    name: "Colares",
+    name: Categoria.Colares,
     foto: "DESTAQUE-COLAR.png",
     produtos: [
       {
-        nome: "colares 1",
+        nome: "Colares 1",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca1.png",
         preco: 100,
         esgotado: false,
+        categoria: Categoria.Colares,
       },
       {
-        nome: "colares 2",
+        nome: "Colares 2",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca2.png",
         preco: 200,
         esgotado: false,
+        categoria: Categoria.Colares,
       },
     ],
   },
   {
-    name: "Conjuntos",
+    name: Categoria.Conjuntos,
     foto: "DESTAQUE-CONJUNTO.png",
     produtos: [
       {
-        nome: "conjunto 1",
+        nome: "Conjunto 1",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca1.png",
         preco: 100,
         esgotado: false,
+        categoria: Categoria.Conjuntos,
       },
       {
-        nome: "conjunto 2",
+        nome: "Conjunto 2",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca2.png",
         preco: 200,
         esgotado: false,
+        categoria: Categoria.Conjuntos,
       },
     ],
   },
   {
-    name: "Pulseiras",
+    name: Categoria.Pulseiras,
     foto: "DESTAQUE-PULSEIRA.png",
     produtos: [
       {
-        nome: "pulseira 1",
+        nome: "Pulseira 1",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca1.png",
         preco: 100,
         esgotado: false,
+        categoria: Categoria.Pulseiras,
       },
       {
-        nome: "pulseira 2",
+        nome: "Pulseira 2",
         descricao: "Peça em prata 925 com garantia vitalícia.",
         foto: "peca2.png",
         preco: 200,
         esgotado: false,
+        categoria: Categoria.Pulseiras,
       },
     ],
   },
 ];
 
-export const products = categories.flatMap((category) =>
+// Mapeando os produtos para incluir a categoria
+export const products: Produto[] = categories.flatMap((category) =>
   category.produtos.map((product) => ({
     ...product,
     categoria: category.name,

@@ -45,7 +45,12 @@ export const CardProduct = ({
         onOpenChange={(e) => setOpen(e.open)}
         placement={"center"}
       >
-        <Card.Root maxW="180px" overflow="hidden" position={"relative"}>
+        <Card.Root
+          maxW="180px"
+          maxH={"400px"}
+          overflow="hidden"
+          position={"relative"}
+        >
           {out && (
             <Text
               position="absolute"

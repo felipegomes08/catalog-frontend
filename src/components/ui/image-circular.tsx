@@ -4,15 +4,27 @@ import { useColorModeValue } from "./color-mode";
 interface ImageCircularProps {
   src: string;
   name: string;
+  onClick: () => void;
+  active: boolean;
 }
 
-export const ImageCircular = ({ src, name }: ImageCircularProps) => {
-  const color = useColorModeValue("white", "black");
+export const ImageCircular = ({
+  src,
+  name,
+  onClick,
+  active,
+}: ImageCircularProps) => {
+  const color = useColorModeValue("black", "white");
   return (
-    <Flex align={"center"} justify={"center"} flexDir={"column"}>
+    <Flex
+      align={"center"}
+      justify={"center"}
+      flexDir={"column"}
+      onClick={onClick}
+    >
       <Image
         src={src}
-        boxSize="50px"
+        boxSize={active ? "60px" : "50px"}
         borderRadius="full"
         fit="cover"
         transition="transform 0.2s"

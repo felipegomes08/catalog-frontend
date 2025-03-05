@@ -1,3 +1,5 @@
+"use client";
+
 import { Categories } from "@/components/ui/categories";
 import { ColorModeToggle } from "@/components/ui/color-mode-toggle";
 import { Container } from "@/components/ui/container";
@@ -6,8 +8,10 @@ import { Footer } from "@/components/ui/footer";
 import { Header } from "@/components/ui/header";
 import { ProductsSection } from "@/components/ui/products-section";
 import { Box, ClientOnly, Skeleton } from "@chakra-ui/react";
+import { useState } from "react";
 
 export default function Home() {
+  const [filter, setFilter] = useState("");
   return (
     <Container>
       <Box pos="absolute" top="8" right="4">
@@ -21,8 +25,8 @@ export default function Home() {
         </ClientOnly>
       </Box>
       <Header />
-      <Categories />
-      <ProductsSection />
+      <Categories setFilter={setFilter} filter={filter} />
+      <ProductsSection filter={filter} />
       <Footer />
     </Container>
   );
