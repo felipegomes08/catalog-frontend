@@ -6,7 +6,7 @@ export enum Categoria {
   Conjuntos = "Conjuntos",
   Pulseiras = "Pulseiras",
   PulseirasMasc = "Pulseiras Masculinas",
-  ColarMasc = "Cplares Masculinos",
+  ColarMasc = "Colares Masculinos",
 }
 
 // Definindo a interface para os produtos
@@ -21,65 +21,6 @@ interface Produto {
 
 // Definindo a estrutura das categorias e produtos
 export const categories = [
-  {
-    name: Categoria.ColarMasc,
-    foto: "DESTAQUE-ANEL.png",
-    produtos: [
-      {
-        nome: "Colar Masculino Cruz Geométrica",
-        descricao: "",
-        esgotado: false,
-        preco: 110,
-        categoria: Categoria.ColarMasc,
-        foto: "colar-masc-cruz-geometrica.jpeg",
-      },
-      {
-        nome: "Colar Cruz Detalhada",
-        descricao: "",
-        esgotado: false,
-        preco: 100,
-        categoria: Categoria.ColarMasc,
-        foto: "colar-masc-cruz-preenchida.jpeg",
-      },
-      {
-        nome: "Colar Cruz Vazada",
-        descricao: "TAM Maior",
-        esgotado: false,
-        preco: 120,
-        categoria: Categoria.ColarMasc,
-        foto: "colar-masc-cruz-vazada-grande.jpeg",
-      },
-      {
-        nome: "Colar Cruz Vazada",
-        descricao: "TAM Menor",
-        esgotado: false,
-        preco: 100,
-        categoria: Categoria.ColarMasc,
-        foto: "colar-masc-cruz-vazada-pequena.jpeg",
-      },
-      {
-        nome: "Colar Estrela de Davi",
-        descricao: "",
-        esgotado: false,
-        preco: 110,
-        categoria: Categoria.ColarMasc,
-        foto: "colar-masc-estrela-davi.jpeg",
-      },
-    ],
-  },
-  {
-    name: Categoria.PulseirasMasc,
-    foto: "DESTAQUE-ANEL.png",
-    produtos: [
-      {
-        nome: "Pulseira Maculinha Lisa",
-        descricao: "2mm",
-        esgotado: false,
-        preco: 90,
-        categoria: Categoria.PulseirasMasc,
-        foto: "pulseira-masc-chapa-2mm.jpeg",
-      }],
-  },
   {
     name: Categoria.Aneis,
     foto: "DESTAQUE-ANEL.png",
@@ -139,7 +80,7 @@ export const categories = [
         preco: 55,
         categoria: Categoria.Aneis,
         foto: "anel-trancado.jpeg",
-      }
+      },
     ],
   },
   {
@@ -339,6 +280,66 @@ export const categories = [
         preco: 70,
         categoria: Categoria.Pulseiras,
         foto: "pulseira-trevo-vermelho.jpeg",
+      },
+    ],
+  },
+  {
+    name: Categoria.ColarMasc,
+    foto: "colar-masc.png",
+    produtos: [
+      {
+        nome: "Colar Masculino Cruz Geométrica",
+        descricao: "",
+        esgotado: false,
+        preco: 110,
+        categoria: Categoria.ColarMasc,
+        foto: "colar-masc-cruz-geometrica.jpeg",
+      },
+      {
+        nome: "Colar Cruz Detalhada",
+        descricao: "",
+        esgotado: false,
+        preco: 100,
+        categoria: Categoria.ColarMasc,
+        foto: "colar-masc-cruz-preenchida.jpeg",
+      },
+      {
+        nome: "Colar Cruz Vazada",
+        descricao: "TAM Maior",
+        esgotado: false,
+        preco: 120,
+        categoria: Categoria.ColarMasc,
+        foto: "colar-masc-cruz-vazada-grande.jpeg",
+      },
+      {
+        nome: "Colar Cruz Vazada",
+        descricao: "TAM Menor",
+        esgotado: false,
+        preco: 100,
+        categoria: Categoria.ColarMasc,
+        foto: "colar-masc-cruz-vazada-pequena.jpeg",
+      },
+      {
+        nome: "Colar Estrela de Davi",
+        descricao: "",
+        esgotado: false,
+        preco: 110,
+        categoria: Categoria.ColarMasc,
+        foto: "colar-masc-estrela-davi.jpeg",
+      },
+    ],
+  },
+  {
+    name: Categoria.PulseirasMasc,
+    foto: "pulseira-masc.png",
+    produtos: [
+      {
+        nome: "Pulseira Maculinha Lisa",
+        descricao: "2mm",
+        esgotado: false,
+        preco: 90,
+        categoria: Categoria.PulseirasMasc,
+        foto: "pulseira-masc-chapa-2mm.jpeg",
       },
     ],
   },

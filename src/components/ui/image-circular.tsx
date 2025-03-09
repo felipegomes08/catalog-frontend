@@ -30,7 +30,7 @@ export const ImageCircular = ({
         transition="transform 0.2s"
         _hover={{ transform: "scale(1.1)" }}
       />
-      <Text fontSize={"xs"} color={color}>
+      <Text fontSize={"xs"} textAlign={"center"} color={color}>
         {name}
       </Text>
     </Flex>

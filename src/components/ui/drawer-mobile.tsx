@@ -1,8 +1,6 @@
 "use client";
 
 import {
-  Button,
-  DrawerActionTrigger,
   DrawerBackdrop,
   DrawerBody,
   DrawerCloseTrigger,
@@ -12,11 +10,22 @@ import {
   DrawerRoot,
   DrawerTitle,
   DrawerTrigger,
+  Flex,
+  Icon,
   IconButton,
+  Link,
+  Text,
 } from "@chakra-ui/react";
+import { FaInstagram } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Categories } from "./categories";
 
-export function DrawerMobile() {
+interface DrawerMobileProps {
+  setFilter: (filter: string) => void;
+  filter: string;
+}
+
+export function DrawerMobile({ setFilter, filter }: DrawerMobileProps) {
   return (
     <DrawerRoot placement="start" size={"sm"}>
       <DrawerBackdrop />
@@ -27,19 +36,18 @@ export function DrawerMobile() {
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>Drawer Title</DrawerTitle>
+          <DrawerTitle>Categorias</DrawerTitle>
         </DrawerHeader>
         <DrawerBody>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <Categories setFilter={setFilter} filter={filter} />
         </DrawerBody>
         <DrawerFooter>
-          <DrawerActionTrigger asChild>
-            <Button variant="outline">Cancel</Button>
-          </DrawerActionTrigger>
-          <Button>Save</Button>
+          <Flex align="center" justify="center" maxW="1200px" mx="auto" px={4}>
+            <Text fontSize="sm">Siga a Shine Pratas | </Text>
+            <Link href="https://www.instagram.com/shine_pratas.925">
+              <Icon as={FaInstagram} boxSize={6} />
+            </Link>
+          </Flex>
         </DrawerFooter>
         <DrawerCloseTrigger />
       </DrawerContent>

@@ -21,7 +21,7 @@ export default function Home() {
       </Box>
       <Box pos="absolute" top="8" left="4">
         <ClientOnly fallback={<Skeleton w="10" h="10" rounded="md" />}>
-          <DrawerMobile />
+          <DrawerMobile setFilter={setFilter} filter={filter} />
         </ClientOnly>
       </Box>
       <Header />

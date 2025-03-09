@@ -10,7 +10,7 @@ export const Footer = () => {
         <Text fontSize="sm">
           © {new Date().getFullYear()} Todos os direitos reservados.
         </Text>
-        <Link href="https://www.instagram.com/felipe_gomes_dev">
+        <Link href="https://www.instagram.com/shine_pratas.925">
           <Icon as={FaInstagram} color={"white"} boxSize={6} />
         </Link>
       </Flex>

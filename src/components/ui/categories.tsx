@@ -1,7 +1,8 @@
 "use client";
 
 import { categories } from "@/catalog/config/products";
-import { Flex } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import Slider from "react-slick";
 import { ImageCircular } from "./image-circular";
 
 interface CategoriesProps {
@@ -9,19 +10,28 @@ interface CategoriesProps {
   setFilter: (filter: string) => void;
 }
 export const Categories = ({ filter, setFilter }: CategoriesProps) => {
+  const settings = {
+    infinite: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+  };
   return (
-    <Flex w={"100%"} gap={4} justify={"center"} wrap={"wrap"} py={4}>
-      {categories.map((category) => (
-        <ImageCircular
-          onClick={() =>
-            category.name === filter ? setFilter("") : setFilter(category.name)
-          }
-          key={category.name}
-          name={category.name}
-          active={category.name === filter}
-          src={`/categories/${category.foto}`}
-        />
-      ))}
-    </Flex>
+    <Box w={"100%"} className="slider-container" py={4} overflow={"hidden"}>
+      <Slider {...settings}>
+        {categories.map((category) => (
+          <ImageCircular
+            onClick={() =>
+              category.name === filter
+                ? setFilter("")
+                : setFilter(category.name)
+            }
+            key={category.name}
+            name={category.name}
+            active={category.name === filter}
+            src={`/categories/${category.foto}`}
+          />
+        ))}
+      </Slider>
+    </Box>
   );
 };

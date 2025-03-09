@@ -24,7 +24,7 @@ export const ProductsSection = ({ filter }: ProductsSectionProps) => {
     >
       {filterProducts.map((item) => (
         <CardProduct
-          key={item.nome}
+          key={item.nome + item.descricao}
           name={item.nome}
           description={item.descricao}
           src={item.foto}
