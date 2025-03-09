@@ -16,7 +16,13 @@ export const Categories = ({ filter, setFilter }: CategoriesProps) => {
     slidesToScroll: 1,
   };
   return (
-    <Box w={"100%"} className="slider-container" py={4} overflow={"hidden"}>
+    <Box
+      w={"100%"}
+      className="slider-container"
+      pt={2}
+      pb={8}
+      overflow={"hidden"}
+    >
       <Slider {...settings}>
         {categories.map((category) => (
           <ImageCircular

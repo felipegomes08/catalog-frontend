@@ -43,7 +43,8 @@ export const CardProduct = ({
         lazyMount
         open={open}
         onOpenChange={(e) => setOpen(e.open)}
-        placement={"center"}
+        placement={"top"}
+        size={"xs"}
       >
         <Card.Root
           maxW="180px"
@@ -98,7 +99,7 @@ export const CardProduct = ({
         </Card.Root>
 
         <DialogBackdrop />
-        <DialogContent style={{ position: "fixed" }}>
+        <DialogContent style={{ position: "absolute", top: "0" }}>
           <DialogHeader>
             <DialogTitle>{name}</DialogTitle>
           </DialogHeader>
@@ -107,7 +108,8 @@ export const CardProduct = ({
               <Image
                 src={`/products/${src}`}
                 alt={name}
-                height="400px"
+                height="100%"
+                maxH={"300px"}
                 width="100%"
                 objectFit="cover"
               />
