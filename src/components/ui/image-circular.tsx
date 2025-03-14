@@ -21,16 +21,22 @@ export const ImageCircular = ({
       justify={"center"}
       flexDir={"column"}
       onClick={onClick}
+      maxW={"50px"}
     >
       <Image
         src={src}
-        boxSize={active ? "60px" : "50px"}
+        boxSize={active ? "45px" : "40px"}
         borderRadius="full"
         fit="cover"
         transition="transform 0.2s"
         _hover={{ transform: "scale(1.1)" }}
       />
-      <Text fontSize={"xs"} textAlign={"center"} color={color}>
+      <Text
+        fontSize={"10px"}
+        textAlign={"center"}
+        textWrap={"wrap"}
+        color={color}
+      >
         {name}
       </Text>
     </Flex>
