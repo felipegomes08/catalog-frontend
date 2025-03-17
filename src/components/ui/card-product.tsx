@@ -48,7 +48,7 @@ export const CardProduct = ({
       >
         <Card.Root
           maxW="180px"
-          maxH={"400px"}
+          minH={"400px"}
           overflow="hidden"
           position={"relative"}
         >
@@ -68,7 +68,9 @@ export const CardProduct = ({
           <Image
             src={`/products/${src}`}
             alt={name}
-            height="200px"
+            h="200px"
+            maxH={"200px"}
+            minH={"200px"}
             width="220px"
             objectFit="cover"
           />
