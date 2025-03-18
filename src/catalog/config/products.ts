@@ -1,4 +1,4 @@
-// Definindo o enum para as categorias
+// Definindo o enum para as categorias.
 export enum Categoria {
   Aneis = "Anéis",
   Brincos = "Brincos",
