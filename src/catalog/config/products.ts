@@ -495,7 +495,7 @@ export const categories = [
   },
   {
     name: Categoria.Tornozeleiras,
-    foto: 'DESTAQUE-TORNOZELEIRA.png',
+    foto: 'TORNOZELEIRAS.png',
     produtos: [
       {
         nome: 'Tornozeleira Zircônias Rosas',
