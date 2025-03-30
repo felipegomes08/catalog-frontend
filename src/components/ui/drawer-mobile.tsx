@@ -34,7 +34,7 @@ export function DrawerMobile({ setFilter, filter }: DrawerMobileProps) {
           {<GiHamburgerMenu color="white" />}
         </IconButton>
       </DrawerTrigger>
-      <DrawerContent>
+      <DrawerContent w={"100%"}>
         <DrawerHeader>
           <DrawerTitle>Categorias</DrawerTitle>
         </DrawerHeader>

@@ -6,7 +6,7 @@ import { StaticImageData } from "next/image";
 
 export const Header = () => {
   return (
-    <Box>
+    <Box mb={4}>
       <Image
         height="100px"
         w={"100%"}

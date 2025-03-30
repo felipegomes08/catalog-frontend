@@ -18,13 +18,19 @@ export const ImageCircular = ({
   return (
     <Flex
       align={"center"}
-      justify={"center"}
-      flexDir={"column"}
       onClick={onClick}
-      maxW={"50px"}
+      w={"100%"}
+      ml={2}
+      cursor={"pointer"}
+      color={active ? "pink" : color}
+      fontWeight={active ? "bold" : "normal"}
+      _hover={{ bg: "pink.100", color: "gray.900", fontWeight: "bold" }}
+      borderRadius={"5px"}
+      p={1}
     >
       <Image
         src={src}
+        mr={2}
         boxSize={active ? "45px" : "40px"}
         borderRadius="full"
         fit="cover"
@@ -32,10 +38,9 @@ export const ImageCircular = ({
         _hover={{ transform: "scale(1.1)" }}
       />
       <Text
-        fontSize={"10px"}
+        fontSize={"16px"}
         textAlign={"center"}
         textWrap={"wrap"}
-        color={color}
       >
         {name}
       </Text>

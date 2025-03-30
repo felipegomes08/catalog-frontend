@@ -1,6 +1,5 @@
 "use client";
 
-import { Categories } from "@/components/ui/categories";
 import { ColorModeToggle } from "@/components/ui/color-mode-toggle";
 import { Container } from "@/components/ui/container";
 import { DrawerMobile } from "@/components/ui/drawer-mobile";
@@ -25,7 +24,6 @@ export default function Home() {
         </ClientOnly>
       </Box>
       <Header />
-      <Categories setFilter={setFilter} filter={filter} />
       <ProductsSection filter={filter} />
       <Footer />
     </Container>

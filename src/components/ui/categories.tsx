@@ -12,12 +12,11 @@ export const Categories = ({ filter, setFilter }: CategoriesProps) => {
   return (
     <Box
       display={"flex"}
+      flexDir={"column"}
       w={"100%"}
-      pt={4}
-      pb={10}
       overflow={"hidden"}
-      justifyContent={"space-around"}
-      alignItems={"flex-start"}
+      gap={2}
+      py={4}
     >
       {categories.map((category) => (
         <ImageCircular
