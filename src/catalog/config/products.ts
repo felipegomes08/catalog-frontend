@@ -587,12 +587,152 @@ export const categories = [
     foto: 'DESTAQUE PERSONALIZADOS.png',
     produtos: [
       {
-        nome: 'Pulseira Masculina Elos Piastrine',
+        nome: 'Pingente Redondo Personalizado Com Foto Prata 925',
         descricao: '',
-        esgotado: false,
+        foto: 'PINGENTE REDONDO PERSONALIZADO COM FOTO PRATA 925.png',
         preco: null,
-        foto: 'Pulseira de Prata 925 Masculina Elos Piastrine.webp'
+        esgotado: false
       },
+      {
+        nome: 'Chaveiro Retangular Aço Inox Personalizado',
+        descricao: '',
+        foto: 'CHAVEIRO RETANGULAR AÇO INOX PERSONALIZADO.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Berloque Redondo Foto Personalizada Prata 925',
+        descricao: '',
+        foto: 'BERLOQUE REDONDO FOTO PERSONALIZADA PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Colar Manuscrito Personalizado - Prata 925',
+        descricao: '',
+        foto: 'COLAR MANUSCRITO PERSONALIZADO - PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pulseira Redonda Foto Personalizada Prata 925',
+        descricao: '',
+        foto: 'PULSEIRA REDONDA FOTO PERSONALIZADA PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Berloque Coração Foto Personalizado Prata 925',
+        descricao: '',
+        foto: 'BERLOQUE CORAÇÃO FOTO PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Berloque Personalizado Prata 925',
+        descricao: '',
+        foto: 'BERLOQUE PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Coração Personalizado Com Foto Prata 925',
+        descricao: '',
+        foto: 'PINGENTE CORAÇÃO PERSONALIZADO COM FOTO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Colar Patuá Personalizado Com Foto Prata 925',
+        descricao: '',
+        foto: 'COLAR PATUÁ PERSONALIZADO COM FOTO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Redondo Personalizado Prata 925',
+        descricao: '',
+        foto: 'PINGENTE REDONDO PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Retangular Foto Personalizado Prata 925',
+        descricao: '',
+        foto: 'PINGENTE RETANGULAR FOTO PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Colar Letrão Duplo - Prata 925',
+        descricao: '',
+        foto: 'COLAR LETRÃO DUPLO - PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pulseira Infantil Personalizada Prata 925',
+        descricao: '',
+        foto: 'PULSEIRA INFANTIL PERSONALIZADA PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Inicial 7mm - Prata 925',
+        descricao: '',
+        foto: 'PINGENTE INICIAL 7MM - PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Colar Canga Filhos Personalizado Prata 925',
+        descricao: '',
+        foto: 'COLAR CANGA FILHOS PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Plaquinha Personalizado Prata 925',
+        descricao: '',
+        foto: 'PINGENTE PLAQUINHA PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Escapulário Retangular Foto E Frase Personalizado Prata 925',
+        descricao: '',
+        foto: 'ESCAPULÁRIO RETANGULAR FOTO E FRASE PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pingente Patuá Coração Duplo Com Foto Personalizado Prata 925',
+        descricao: '',
+        foto: 'PINGENTE PATUÁ CORAÇÃO DUPLO COM FOTO PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pulseira Infantil Personalizado Prata 925',
+        descricao: '',
+        foto: 'PULSEIRA INFANTIL PERSONALIZADO PRATA 925.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Colar Palito Personalizado',
+        descricao: '',
+        foto: 'Colar Palito Personalizado.png',
+        preco: null,
+        esgotado: false
+      },
+      {
+        nome: 'Pulseira Olhar Adulto Personalizado Prata 925',
+        descricao: '',
+        foto: 'Pulseira Olhar Adulto Personalizado Prata 925.png',
+        preco: null,
+        esgotado: false
+      }
     ]
   }
 ];
