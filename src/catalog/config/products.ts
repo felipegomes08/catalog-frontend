@@ -75,7 +75,7 @@ export const categories = [
         esgotado: false,
         preco: 55,
         categoria: Categoria.Aneis,
-        foto: 'anel-coracao-verde.jpeg'
+        foto: '65cb84ba86871ae0fed0803ec0116591-08398c30f4b635c25917366032324259-1024-1024.webp'
       },
       {
         nome: 'Anel Corações Cravejados',
@@ -83,7 +83,7 @@ export const categories = [
         esgotado: false,
         preco: 60,
         categoria: Categoria.Aneis,
-        foto: 'anel-coracoes-pedrinhas.jpeg'
+        foto: '40eeb451556ac2afc892149fb81d5335-49ee9a739b7161ee6c17366032231067-1024-1024.webp'
       },
       {
         nome: 'Anel Meia Aliança',
@@ -91,7 +91,7 @@ export const categories = [
         esgotado: false,
         preco: 60,
         categoria: Categoria.Aneis,
-        foto: 'anel-cravejado.jpeg'
+        foto: '5d572e291090c895fe7c81cc5835ba22-a76769cfbcc870c0f417366038536117-1024-1024.webp'
       },
       {
         nome: 'Anel Amor Infinito',
@@ -99,7 +99,7 @@ export const categories = [
         esgotado: false,
         preco: 50,
         categoria: Categoria.Aneis,
-        foto: 'anel-infinito-coracao.jpeg'
+        foto: '3d45cc9485bd9965bcc6b2e27f7fd57d-ce1fc9482d5058271917393846278783-1024-1024.webp'
       },
       {
         nome: 'Anel Zircônia Quadrangular',
@@ -107,7 +107,7 @@ export const categories = [
         esgotado: false,
         preco: 60,
         categoria: Categoria.Aneis,
-        foto: 'anel-pedra-quadrada.jpeg'
+        foto: '5b4c24c363ab6e4ac5123ce32e7bae9c-c3beb5fb312fab733817392996859183-1024-1024.webp'
       },
       {
         nome: 'Anel Triângulos',
@@ -115,7 +115,7 @@ export const categories = [
         esgotado: false,
         preco: 50,
         categoria: Categoria.Aneis,
-        foto: 'anel-reg-triangulos.jpeg'
+        foto: 'fbd16e5b4ea8a1ffd3344db11d8470b4-e536a402a039f7c88d17366034698812-1024-1024.webp'
       },
       {
         nome: 'Anel Trançado',
@@ -123,7 +123,7 @@ export const categories = [
         esgotado: false,
         preco: 55,
         categoria: Categoria.Aneis,
-        foto: 'anel-trancado.jpeg'
+        foto: '746eedf92c9142408ba854bd972e4b19-1237bc601173e570eb17392992027016-1024-1024.webp'
       }
     ]
   },
@@ -201,22 +201,13 @@ export const categories = [
         preco: 50,
         foto: 'Brinco de Prata 925 Zircônia Redonda Unissex 9mm.webp'
       },
-
-      {
-        nome: 'Brinco cuff 4 Corações',
-        descricao: '',
-        esgotado: false,
-        preco: 55,
-        categoria: Categoria.Brincos,
-        foto: 'brinco-4-coracoes.jpeg'
-      },
       {
         nome: 'Brinco Círculos Detalhados',
         descricao: '',
         esgotado: false,
         preco: 55,
         categoria: Categoria.Brincos,
-        foto: 'brinco-argolas-iaguais.jpeg'
+        foto: 'facetune_17-01-2025-15-10-06-6exi33hg5j-3ded2706d63b6154e417393890693814-1024-1024-d526deaf34dde3728d17399915160168-1024-1024.webp'
       },
       {
         nome: 'Brinco Argolas Lisas',
@@ -224,7 +215,7 @@ export const categories = [
         esgotado: false,
         preco: 40,
         categoria: Categoria.Brincos,
-        foto: 'brinco-argolas.jpeg'
+        foto: '4462f073d0af6c75f0ad27d9a206baac-a3e28fdfe5a5f5a69917366043223316-1024-1024.webp'
       },
       {
         nome: 'Brinco Círculo e Coração Detalhado',
@@ -232,7 +223,7 @@ export const categories = [
         esgotado: false,
         preco: 50,
         categoria: Categoria.Brincos,
-        foto: 'brinco-coracao-argola.jpeg'
+        foto: '59ad4c8fbb31b3bd5b24460e450a0ff8-1ac7ee6836fe32348817366047457483-1024-1024.webp'
       },
       {
         nome: 'Brinco Pedra',
@@ -240,7 +231,7 @@ export const categories = [
         esgotado: false,
         preco: 20,
         categoria: Categoria.Brincos,
-        foto: 'brinco-masc.jpeg'
+        foto: '8b57516e723fa4cd3ae32adef65d60cf-d3f3c1c937867bee4b17366046198134-1024-1024-8caf32c5208fac546117399199098094-1024-1024.webp'
       },
       {
         nome: 'Brinco Borboletas e Ponto de Luz',
@@ -248,7 +239,7 @@ export const categories = [
         esgotado: false,
         preco: 55,
         categoria: Categoria.Brincos,
-        foto: 'brinco-trio-borboletas-pedrinha.jpeg'
+        foto: 'df529bc65a2c93af876ae646ae65d61d-b5e2b6a4b3d5106e5c17398281151166-1024-1024.webp'
       },
       {
         nome: 'Brinco Corações Rosé',
@@ -256,15 +247,7 @@ export const categories = [
         esgotado: false,
         preco: 50,
         categoria: Categoria.Brincos,
-        foto: 'brinco-trio-coracao-rosa.jpeg'
-      },
-      {
-        nome: 'Brinco Corações Origami',
-        descricao: 'Trio',
-        esgotado: false,
-        preco: 55,
-        categoria: Categoria.Brincos,
-        foto: 'brinco-trio-coracoes-origami.jpeg'
+        foto: '742163963340d21340104db5f30a8435-d60816611a85ad094217401558634006-1024-1024.webp'
       },
       {
         nome: 'Brinco Estrela,Coração e Ponto de Luz',
@@ -272,7 +255,7 @@ export const categories = [
         esgotado: false,
         preco: 50,
         categoria: Categoria.Brincos,
-        foto: 'brinco-trio-estrela-coracao-pedrinha.jpeg'
+        foto: 'facetune_20-03-2025-09-00-45-9a64417a725f82e41617431097456932-1024-1024.webp'
       }
     ]
   },
@@ -325,7 +308,7 @@ export const categories = [
       {
         nome: 'Colar veneziana com Bolinhas',
         descricao: '',
-        foto: 'Colar veneziana com Bolinhas.webp',
+        foto: '5e1e2f0fc4da07420cbaff765c010201-b0fdd40532061fb5d517366058682748-1024-1024.webp',
         preco: 70,
         esgotado: false
       },
@@ -344,13 +327,6 @@ export const categories = [
         foto: 'Colar de Prata 925 Trevo Detalhado Preto Pequeno.webp'
       },
       {
-        nome: 'Colar Veneziana com Bolinhas',
-        descricao: '',
-        esgotado: false,
-        preco: 65,
-        foto: 'Colar de Prata 925 Veneziana com Bolinhas.webp'
-      },
-      {
         nome: 'Colar Mini Corações Vazados',
         descricao: '',
         esgotado: false,
@@ -363,15 +339,7 @@ export const categories = [
         esgotado: false,
         preco: 80,
         categoria: Categoria.Colares,
-        foto: 'colar-coracao-pedrinha pequena.jpeg'
-      },
-      {
-        nome: 'Colar Ponto de Luz',
-        descricao: '',
-        esgotado: false,
-        preco: 65,
-        categoria: Categoria.Colares,
-        foto: 'colar-ponto-luz.jpeg'
+        foto: '606e0f835ffabd85c8f248d1a38f7179-9814c2da9debe9b4e917366057166403-1024-1024.webp'
       }
     ]
   },
@@ -399,7 +367,7 @@ export const categories = [
         esgotado: false,
         preco: 115,
         categoria: Categoria.Conjuntos,
-        foto: 'conjunto-azul.jpeg'
+        foto: '4d1c1715297eadeb39f73ec6f1140e23-59953295ce4db7065017366053416380-1024-1024.webp'
       },
       {
         nome: 'Conjunto Gota Branca',
@@ -407,7 +375,7 @@ export const categories = [
         esgotado: false,
         preco: 115,
         categoria: Categoria.Conjuntos,
-        foto: 'conjunto-branco.jpeg'
+        foto: 'a77f085b45c13253d422769907c3e9f1-54bbac49bd64c2788b17366053463847-1024-1024.webp'
       }
     ]
   },
@@ -449,7 +417,7 @@ export const categories = [
         esgotado: false,
         preco: 55,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-coracoes-azuis.jpeg'
+        foto: '69de0f8343446cfb8920134e97329eca-fe345b1d32d916958417366105098355-1024-1024.webp'
       },
       {
         nome: 'Pulseira Estrela e Coração',
@@ -457,7 +425,7 @@ export const categories = [
         esgotado: false,
         preco: 65,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-estrela-coracao.jpeg'
+        foto: '9bff8b95fcda79e5d798f8bbf185b4c2-e4cc451fcec924028a17366106957575-1024-1024.webp'
       },
       {
         nome: 'Pulseira Pedrinhas Azuis',
@@ -465,7 +433,7 @@ export const categories = [
         esgotado: false,
         preco: 65,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-pedrinhas-azuis.jpeg'
+        foto: '5972abd3e48290974d869b26676cb9bc-ca5a8524a9c89fb36c17366109545786-1024-1024-4e00bbb2b6e431609317401401377061-1024-1024.webp'
       },
       {
         nome: 'Pulseira Pedrinhas Douradas',
@@ -473,7 +441,7 @@ export const categories = [
         esgotado: false,
         preco: 65,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-pedrinhas-douradas.jpeg'
+        foto: '1132fa31e5ce2b0f433fed91a49d7fab-bf7100a544a5e3812e17366114728191-1024-1024.webp'
       },
       {
         nome: 'Pulseira Pedrinhas Verdes',
@@ -481,7 +449,7 @@ export const categories = [
         esgotado: false,
         preco: 65,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-pedrinhas-verde.jpeg'
+        foto: 'fb7aa73814bc62901478dd02f957e5bd-0f66cd66a61d486dd617366105985709-1024-1024-f6fc0a94ebe604fe4617401409414156-1024-1024.webp'
       },
       {
         nome: 'Pulseira Trevo Vermelho',
@@ -489,7 +457,7 @@ export const categories = [
         esgotado: false,
         preco: 70,
         categoria: Categoria.Pulseiras,
-        foto: 'pulseira-trevo-vermelho.jpeg'
+        foto: '45dc54b973e5dac4b89676b76e27bb39-bd28490d246f2c71d317366115351168-1024-1024.webp'
       }
     ]
   },
@@ -537,7 +505,7 @@ export const categories = [
         esgotado: false,
         preco: 110,
         categoria: Categoria.ColarMasc,
-        foto: 'colar-masc-cruz-geometrica.jpeg'
+        foto: 'facetune_04-12-2024-14-34-37-hhc2nmgoq7-ff7b61f71e8e3aa5f117394719783296-1024-1024.webp'
       },
       {
         nome: 'Colar Cruz Detalhada',
@@ -545,15 +513,7 @@ export const categories = [
         esgotado: false,
         preco: 100,
         categoria: Categoria.ColarMasc,
-        foto: 'colar-masc-cruz-preenchida.jpeg'
-      },
-      {
-        nome: 'Colar Cruz Vazada',
-        descricao: 'TAM Maior',
-        esgotado: false,
-        preco: 120,
-        categoria: Categoria.ColarMasc,
-        foto: 'colar-masc-cruz-vazada-grande.jpeg'
+        foto: 'd6597252cfc477560cb10e6195eec6c9-ed349ce26b74280c1417381734376713-1024-1024.webp'
       },
       {
         nome: 'Colar Cruz Vazada',
@@ -561,7 +521,7 @@ export const categories = [
         esgotado: false,
         preco: 100,
         categoria: Categoria.ColarMasc,
-        foto: 'colar-masc-cruz-vazada-pequena.jpeg'
+        foto: '5e813f57a668315bd7be5123a8d6f9cc-9cf883cd203579f7df17379972248651-1024-1024.webp'
       },
       {
         nome: 'Colar Estrela de Davi',
@@ -569,7 +529,7 @@ export const categories = [
         esgotado: false,
         preco: 110,
         categoria: Categoria.ColarMasc,
-        foto: 'colar-masc-estrela-davi.jpeg'
+        foto: 'af0fbe565e6667040922591d762ae7c1-e905329be0377d291b17366066464254-1024-1024.webp'
       }
     ]
   },
@@ -618,14 +578,6 @@ export const categories = [
         esgotado: false,
         preco: 150,
         foto: 'Pulseira Masculina de Prata 925 Elos Grumet 5mm.webp'
-      },
-      {
-        nome: 'Pulseira Masculina Lisa',
-        descricao: '2mm',
-        esgotado: false,
-        preco: 90,
-        categoria: Categoria.PulseirasMasc,
-        foto: 'pulseira-masc-chapa-2mm.jpeg'
       }
     ]
   }
