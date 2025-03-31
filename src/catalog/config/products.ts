@@ -7,7 +7,8 @@ export enum Categoria {
   Pulseiras = "Pulseiras",
   PulseirasMasc = "Pulseiras Masculinas",
   ColarMasc = "Colares Masculinos",
-  Tornozeleiras = "Tornozeleiras"
+  Tornozeleiras = "Tornozeleiras",
+  Personalizados = "Personalizados",
 }
 
 // Definindo a interface para os produtos
@@ -15,7 +16,7 @@ interface Produto {
   nome: string;
   descricao: string;
   foto: string;
-  preco: number;
+  preco?: number | null;
   esgotado: boolean;
   categoria: Categoria;
 }
@@ -579,6 +580,19 @@ export const categories = [
         preco: 150,
         foto: 'Pulseira Masculina de Prata 925 Elos Grumet 5mm.webp'
       }
+    ]
+  },
+  {
+    name: Categoria.Personalizados,
+    foto: 'DESTAQUE PERSONALIZADOS.png',
+    produtos: [
+      {
+        nome: 'Pulseira Masculina Elos Piastrine',
+        descricao: '',
+        esgotado: false,
+        preco: null,
+        foto: 'Pulseira de Prata 925 Masculina Elos Piastrine.webp'
+      },
     ]
   }
 ];

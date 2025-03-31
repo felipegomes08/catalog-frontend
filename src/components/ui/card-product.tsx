@@ -49,6 +49,7 @@ export const CardProduct = ({
         <Card.Root
           maxW="180px"
           minH={"400px"}
+          maxH={"500px"}
           overflow="hidden"
           position={"relative"}
         >
@@ -130,14 +131,14 @@ export const CardProduct = ({
               )}
             </Box>
             <Text fontSize={"xs"}>{description}</Text>
-            <Text
+            {price && <Text
               textStyle="xl"
               fontWeight="medium"
               letterSpacing="tight"
               mt="2"
             >
               <FormatNumber value={price} style="currency" currency="BRL" />
-            </Text>
+            </Text>}
           </DialogBody>
           <DialogFooter>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
