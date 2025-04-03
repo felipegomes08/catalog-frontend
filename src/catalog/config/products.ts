@@ -29,7 +29,7 @@ export const categories = [
     produtos: [
       {
         nome: "Anel de Prata 925 Solitário Zircônia Oval Branca",
-        descricao: "",
+        descricao: "Tam 23",
         esgotado: false,
         categoria: Categoria.Aneis,
         foto: "Anel de Prata 925 Solitário Zircônia Oval Branca.webp",
@@ -37,7 +37,7 @@ export const categories = [
       },
       {
         nome: "Anel de Prata 925 Borboleta em Zircônia",
-        descricao: "",
+        descricao: "Tam 22",
         esgotado: false,
         categoria: Categoria.Aneis,
         foto: "Anel de Prata 925 Borboleta em Zircônia.webp",
@@ -45,7 +45,7 @@ export const categories = [
       },
       {
         nome: "Anel de Prata 925 Solitário 4mm",
-        descricao: "",
+        descricao: "Tam 18",
         esgotado: false,
         categoria: Categoria.Aneis,
         foto: "Anel de Prata 925 Solitário 4mm.webp",
@@ -53,7 +53,7 @@ export const categories = [
       },
       {
         nome: "Anel de Prata 925 Borboleta Cravejada II",
-        descricao: "",
+        descricao: "Tam 20",
         esgotado: false,
         categoria: Categoria.Aneis,
         foto: "Anel de Prata 925 Borboleta Cravejada II.webp",
