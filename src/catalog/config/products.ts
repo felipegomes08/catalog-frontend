@@ -725,7 +725,7 @@ export const categories = [
       },
     ],
   },
-};
+];
   
 
 // Mapeando os produtos para incluir a categoria
