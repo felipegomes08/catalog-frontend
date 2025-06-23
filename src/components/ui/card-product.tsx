@@ -23,6 +23,7 @@ interface CardProductProps {
   name: string;
   description: string;
   price?: number | null;
+  maxPrice?: number | null;
   src: string;
   out: boolean;
 }
@@ -78,14 +79,16 @@ export const CardProduct = ({
           <Card.Body>
             <Card.Title fontSize={"sm"}>{name}</Card.Title>
             <Card.Description fontSize={"xs"}>{description}</Card.Description>
-            {price && <Text
-              textStyle="xl"
-              fontWeight="medium"
-              letterSpacing="tight"
-              mt="2"
-            >
-              <FormatNumber value={price} style="currency" currency="BRL" />
-            </Text>}
+            {price && (
+              <Text
+                textStyle="xl"
+                fontWeight="medium"
+                letterSpacing="tight"
+                mt="2"
+              >
+                <FormatNumber value={price} style="currency" currency="BRL" />
+              </Text>
+            )}
           </Card.Body>
           <Card.Footer>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
@@ -131,14 +134,16 @@ export const CardProduct = ({
               )}
             </Box>
             <Text fontSize={"xs"}>{description}</Text>
-            {price && <Text
-              textStyle="xl"
-              fontWeight="medium"
-              letterSpacing="tight"
-              mt="2"
-            >
-              <FormatNumber value={price} style="currency" currency="BRL" />
-            </Text>}
+            {price && (
+              <Text
+                textStyle="xl"
+                fontWeight="medium"
+                letterSpacing="tight"
+                mt="2"
+              >
+                <FormatNumber value={price} style="currency" currency="BRL" />
+              </Text>
+            )}
           </DialogBody>
           <DialogFooter>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
