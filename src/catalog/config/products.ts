@@ -291,6 +291,13 @@ export const categories = [
         foto: "Meia Argola de Prata 925 Redonda Vazada Detalhada Pequena.webp",
         preco: 55,
       },
+      {
+        nome: "Brinco de Prata 925 Gota Vírgula Pequena",
+        descricao: "",
+        esgotado: false,
+        categoria: Categoria.Brincos,
+        foto: "Brinco de Prata 925 Gota Vírgula Pequena.webp",
+        preco: 50,
       },
       {
         nome: "Brinco de Prata 925 Zircônia Redonda 8mm Rosa",
