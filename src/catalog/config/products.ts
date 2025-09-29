@@ -598,7 +598,7 @@ export const categories = [
         descricao: "",
         esgotado: false,
         categoria: Categoria.Colares,
-        foto: "coracao-ponto-de-luz.jpeg",
+        foto: "coracao-ponto-de-luz-delicado.jpeg",
         preco: 100,
       },
       {
